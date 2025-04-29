@@ -1,0 +1,6 @@
+SELECT u.id, u.username, COUNT(l.id) AS link_count, u.date_joined
+FROM users_user AS u
+LEFT JOIN links_link AS l ON u.id = l.id
+GROUP BY u.id, u.username, u.date_joined
+ORDER BY link_count DESC, u.date_joined ASC
+LIMIT 10;
