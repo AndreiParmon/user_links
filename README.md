@@ -14,7 +14,7 @@ User Links API — сервис для управления пользовате
 
 Установка проекта
 1. Клонирование репозитория
-git clone https://github.com/your-repository.git
+git clone (https://github.com/AndreiParmon/user_links.git)
 cd user_links
 
 2. Установка зависимостей
